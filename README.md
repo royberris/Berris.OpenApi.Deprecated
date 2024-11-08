@@ -56,4 +56,4 @@ This will add the `deprecated` field to the OpenAPI document for given operation
 
 And the operation will be marked as deprecated in the OpenAPI viewer of choice.
 
-![example with Swagger UI](example.png)
+![example with Swagger UI](example-swagger.png)
