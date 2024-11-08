@@ -10,16 +10,10 @@ public sealed class DeprecatedOperationTransformer : IOpenApiOperationTransforme
     public Task TransformAsync(OpenApiOperation operation, OpenApiOperationTransformerContext context,
         CancellationToken cancellationToken)
     {
-        var metadata = context.Description.ActionDescriptor.EndpointMetadata
+        operation.Deprecated = context.Description.ActionDescriptor.EndpointMetadata
             .OfType<DeprecatedEndpointMetadata>()
-            .ToArray();
+            .FirstOrDefault() is not null;
 
-        if (metadata.Any())
-        {
-            operation.Deprecated = metadata
-                .All(i => i.Deprecated);
-        }
-                
         return Task.CompletedTask;
     }
 }

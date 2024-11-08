@@ -10,7 +10,7 @@
         <RepositoryUrl>https://github.com/royberris/Berris.OpenApi.Deprecated</RepositoryUrl>
         <Authors>Roy Berris</Authors>
         <PackageTags>openapi, asp.net</PackageTags>
-        <Version>0.0.1-prerelease</Version>
+        <Version>0.0.2-prerelease</Version>
     </PropertyGroup>
 
     <ItemGroup>
