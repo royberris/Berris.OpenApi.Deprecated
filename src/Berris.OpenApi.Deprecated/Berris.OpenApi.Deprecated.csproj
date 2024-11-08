@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+        <PackageId>Berris.OpenApi.Deprecated</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/royberris/Berris.OpenApi.Deprecated</RepositoryUrl>
+        <Authors>Roy Berris</Authors>
+        <PackageTags>openapi, asp.net</PackageTags>
+        <Version>0.0.1-prerelease</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0-rc.2.24474.3" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+﻿<Solution>
+  <Folder Name="/build/" />
+  <Folder Name="/docs/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src\Berris.OpenApi.Deprecated\Berris.OpenApi.Deprecated.csproj" Type="Classic C#" />
+  </Folder>
+  <Project Path="MinimalApiExample\MinimalApiExample.csproj" Type="Classic C#" />
+</Solution>
